@@ -1,5 +1,5 @@
-# <img src="http://latex.codecogs.com/gif.latex?^p">GNNs
-This repository provides a reference implementation of <img src="http://latex.codecogs.com/gif.latex?^p">GNNs as described in the paper "**<img src="http://latex.codecogs.com/gif.latex?p">-Laplacian Based Graph Neural Networks**". 
+# pGNNs
+This repository provides a reference implementation of <img src="http://latex.codecogs.com/gif.latex?^p">GNNs as described in the paper "**p-Laplacian Based Graph Neural Networks**". 
 
 ### Requirements
 Install the following packages:
@@ -20,7 +20,7 @@ $ bash run_test.sh
 ```
 
 ### Citing
-If you find *HSRL* useful in your research, please cite our paper:
+If you find *pGNNs* useful in your research, please cite our paper:
 ```
 @article{DBLP:journals/corr/abs-2111-07337,
   author    = {Guoji Fu and
