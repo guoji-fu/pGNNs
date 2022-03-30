@@ -1,5 +1,5 @@
-# $p$GNNs
-This repository provides a reference implementation of $^p$GNNs as described in the paper "**$p$-Laplacian Based Graph Neural Networks**". 
+# pGNNs
+This repository provides a reference implementation of <img src="http://latex.codecogs.com/gif.latex?^p">GNNs as described in the paper "**[p-Laplacian Based Graph Neural Networks](https://arxiv.org/abs/2111.07337)**". 
 
 ### Requirements
 Install the following packages:
@@ -17,4 +17,24 @@ $ python main.py --input cora --train_rate 0.025 --val_rate 0.025 --model pgnn -
 ### Testing Examples
 ```
 $ bash run_test.sh
+```
+
+### Citing
+If you find *pGNNs* useful in your research, please cite our paper:
+```
+@article{DBLP:journals/corr/abs-2111-07337,
+  author    = {Guoji Fu and
+               Peilin Zhao and
+               Yatao Bian},
+  title     = {p-Laplacian Based Graph Neural Networks},
+  journal   = {CoRR},
+  volume    = {abs/2111.07337},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2111.07337},
+  eprinttype = {arXiv},
+  eprint    = {2111.07337},
+  timestamp = {Tue, 16 Nov 2021 12:12:31 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2111-07337.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
