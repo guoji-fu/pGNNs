@@ -20,7 +20,7 @@ $ bash run_test.sh
 ```
 
 ### Citing
-If you find *pGNNs* useful in your research, please cite our paper:
+If you find <img src="http://latex.codecogs.com/gif.latex?^p">*GNNs* useful in your research, please cite our paper:
 ```
 @article{DBLP:journals/corr/abs-2111-07337,
   author    = {Guoji Fu and
