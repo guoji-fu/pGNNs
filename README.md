@@ -1,5 +1,5 @@
 # pGNNs
-This repository provides a reference implementation of <img src="http://latex.codecogs.com/gif.latex?^p">GNNs as described in the paper "**[p-Laplacian Based Graph Neural Networks](https://arxiv.org/abs/2111.07337)**". 
+This repository provides a reference implementation of <img src="http://latex.codecogs.com/gif.latex?^p">GNNs as described in the paper "**[p-Laplacian Based Graph Neural Networks](https://arxiv.org/abs/2111.07337)**" published at ICML'2022.
 
 ### Requirements
 Install the following packages:
