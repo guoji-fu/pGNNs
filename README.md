@@ -1,5 +1,5 @@
 # pGNNs
-This repository provides a reference implementation of <img src="http://latex.codecogs.com/gif.latex?^p">GNNs as described in the paper "**[p-Laplacian Based Graph Neural Networks](https://arxiv.org/abs/2111.07337)**" published at ICML'2022.
+This repository provides a reference implementation of <img src="http://latex.codecogs.com/gif.latex?^p">GNNs as described in the paper "**[p-Laplacian Based Graph Neural Networks](https://proceedings.mlr.press/v162/fu22e.html)**" published at ICML'2022.
 
 ### Requirements
 Install the following packages:
@@ -22,19 +22,27 @@ $ bash run_test.sh
 ### Citing
 If you find <img src="http://latex.codecogs.com/gif.latex?^p">*GNNs* useful in your research, please cite our paper:
 ```
-@article{DBLP:journals/corr/abs-2111-07337,
+@inproceedings{DBLP:conf/icml/FuZB22,
   author    = {Guoji Fu and
                Peilin Zhao and
                Yatao Bian},
+  editor    = {Kamalika Chaudhuri and
+               Stefanie Jegelka and
+               Le Song and
+               Csaba Szepesv{\'{a}}ri and
+               Gang Niu and
+               Sivan Sabato},
   title     = {p-Laplacian Based Graph Neural Networks},
-  journal   = {CoRR},
-  volume    = {abs/2111.07337},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2111.07337},
-  eprinttype = {arXiv},
-  eprint    = {2111.07337},
-  timestamp = {Tue, 16 Nov 2021 12:12:31 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2111-07337.bib},
+  booktitle = {International Conference on Machine Learning, {ICML} 2022, 17-23 July
+               2022, Baltimore, Maryland, {USA}},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {162},
+  pages     = {6878--6917},
+  publisher = {{PMLR}},
+  year      = {2022},
+  url       = {https://proceedings.mlr.press/v162/fu22e.html},
+  timestamp = {Tue, 12 Jul 2022 17:36:52 +0200},
+  biburl    = {https://dblp.org/rec/conf/icml/FuZB22.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
