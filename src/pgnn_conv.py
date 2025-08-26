@@ -83,7 +83,7 @@ def calc_M(f, edge_index, edge_weight, deg_inv_sqrt, num_nodes, mu, p):
         M = edge_weight * graph_grad
         M.masked_fill_(M == float('inf'), 0)
         alpha = (deg_inv_sqrt.pow(2) * scatter_add(M, col, dim=0, dim_size=num_nodes) + (2*mu)/p).pow(-1)
-        beta = 4*mu / p * alpha
+        beta = 2*mu / p * alpha
         M_ = alpha[row] * deg_inv_sqrt[row] * M * deg_inv_sqrt[col]
         return M_, beta
 
